@@ -7,3 +7,5 @@ Interfaces with the HighScoreAPI at:
 https://highscoreapi.herokuapp.com/scores
 
 Don't cheat :)
+
+Thanks to github.com/djholt for the help.
