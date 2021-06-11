@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-color: #393E41;
+    color: #F6F7EB;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 5px;
+    width: fit-content;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 75%;
+    min-width: 75%;
+}
+
+
+#menu-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 1em;
+}
+
+#current-score {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    background-color: #4C505C;
+    border: #4C505C 2px solid;
+    border-radius: 6px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.tile {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    color: #F6F7EB;
+    background-color: #858DA6;
+    border: #4C505C 3px solid;
+    border-radius: 10px;
+    margin: 3px;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.tile-2 {
+    background-color: #032524;
+}
+
+.tile-4 {
+    background-color: #053937;
+}
+
+.tile-8 {
+    background-color: #074B49;
+}
+
+.tile-16 {
+    background-color: #095D5B;
+}
+
+.tile-32 {
+    background-color: #0B6F6E;
+}
+
+.tile-64 {
+    background-color: #0D8280;
+}
+
+.tile-128 {
+    background-color: #0D8280;
+}
+
+.tile-256 {
+    background-color: #0F9592;
+}
+
+.tile-512 {
+    background-color: #11A7A5;
+}
+
+.tile-1024 {
+    background-color: #12BAB7;
+}
+
+.tile-2048 {
+    background-color: #14CCC9;
+}
+
+.tile-4096 {
+    background-color: #16DFDB;
+}
